@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+  }
+  .bg-gradient {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .bg-grid {
+    width: 102%;
+  
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+  
+  .background {
+    z-index: 0;
+  
+    position: relative;
+  }
+  
+  .background img {
+    max-width: 102%;
+  
+    vertical-align: middle;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 33%,
+      rgba(233, 201, 255, 1) 49%,
+      rgba(12,237,237, 1) 100%
+    );
+  }
+  
+  /* Responsive styles for screens up to 640px wide */
+  @media (max-width: 426px) {
+    .bg-grid {
+      width: 102%;
+    }
+  
+    .background img {
+      max-width: 102%; /* Adjust to your specific needs */
+    }
+  }
+  @media (max-width: 376px) {
+    .bg-grid {
+      width: 115%;
+    }
+  
+    .background img {
+      max-width: 115%; /* Adjust to your specific needs */
+    }
+  }
+  @media (max-width: 321px) {
+    .bg-grid {
+      width: 135%;
+    }
+  
+    .background img {
+      max-width: 135%; /* Adjust to your specific needs */
+    }
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  @media print {
+    body *,
+    *::before,
+    *::after {
+      -webkit-print-color-adjust: exact !important; /* Chrome, Safari, Edge */
+      color-adjust: exact !important; /*Firefox*/
+      page-break-before: auto
+  
+    }
+    body {
+      min-width: initial !important;
+      page-break-before: auto
+    }
+    html, body {
+      height:100vh; 
+      margin: 0 !important; 
+      padding: 0 !important;
+      overflow: hidden;
+    }
+   
+  }
+  
+  @page {
+    size: A4 !important;
+    margin: 0 !important;
+    page-break-after:avoid;
+  }
+
+  

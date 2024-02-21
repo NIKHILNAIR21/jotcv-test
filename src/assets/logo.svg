@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 904 343.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_6-2);
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_6);
+      }
+
+      .cls-3 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 30.79px;
+        font-weight: 500;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #0064ff;
+      }
+
+      .cls-6 {
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_6-3);
+      }
+
+      .cls-5 {
+        font-size: 238.27px;
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_6-4);
+      }
+
+      .cls-9 {
+        fill: url(#Degradado_sin_nombre_6-5);
+      }
+
+      .cls-10 {
+        font-family: Poppins-Light, Poppins;
+        font-weight: 300;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="88.24" y1="29.49" x2="88.24" y2="184.41" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ceded"/>
+      <stop offset="1" stop-color="#0064ff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_6-2" data-name="Degradado sin nombre 6" x1="138.35" y1="29.49" x2="138.35" y2="184.41" xlink:href="#Degradado_sin_nombre_6"/>
+    <linearGradient id="Degradado_sin_nombre_6-3" data-name="Degradado sin nombre 6" x1="204.57" y1="29.49" x2="204.57" y2="184.41" xlink:href="#Degradado_sin_nombre_6"/>
+    <linearGradient id="Degradado_sin_nombre_6-4" data-name="Degradado sin nombre 6" x1="194.06" y1="29.49" x2="194.06" y2="184.41" xlink:href="#Degradado_sin_nombre_6"/>
+    <linearGradient id="Degradado_sin_nombre_6-5" data-name="Degradado sin nombre 6" x1="168.59" y1="29.49" x2="168.59" y2="184.41" xlink:href="#Degradado_sin_nombre_6"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <g>
+          <g>
+            <path class="cls-2" d="M152.72,69.08c-4.25,0-7.69-3.44-7.69-7.69v-20.38c-34.44-16.55-107.66-15.48-126.75,8.15-21.82,27-26.79,116.78,0,138.86,26.79,22.07,111.86,21.82,138.86,0,21.97-17.75,24.44-82.27,11.38-118.93h-15.79Z"/>
+            <path class="cls-1" d="M145.27,7.93h-9.45c-4.41,0-7.99,3.58-7.99,7.99v9.45c0,1.99,1.61,3.59,3.59,3.59h9.45c4.41,0,7.99-3.58,7.99-7.99V11.52c0-1.99-1.61-3.59-3.6-3.59Z"/>
+            <path class="cls-7" d="M211.49,5.43h-9.45c-4.41,0-7.99,3.58-7.99,7.99v9.45c0,1.99,1.61,3.59,3.59,3.59h9.45c4.41,0,7.99-3.58,7.99-7.99V9.03c0-1.99-1.61-3.59-3.59-3.59Z"/>
+            <path class="cls-8" d="M203.18,60.11h-12.45c-5.82,0-10.53,4.72-10.53,10.53v12.45c0,2.62,2.12,4.74,4.74,4.74h12.45c5.82,0,10.53-4.72,10.53-10.53v-12.45c0-2.62-2.12-4.74-4.74-4.74Z"/>
+            <path class="cls-9" d="M181.13,24.37h-17.11c-8,0-14.48,6.48-14.48,14.48v17.11c0,3.6,2.92,6.51,6.51,6.51h17.11c8,0,14.48-6.48,14.48-14.48V30.88c0-3.6-2.92-6.51-6.51-6.51Z"/>
+          </g>
+          <path class="cls-3" d="M128.27,146.54l-40.03,40.03-40.03-40.03c2.04-3.75,4.64-7.27,7.81-10.44,3.46-3.46,7.34-6.25,11.48-8.36,5.46,3.7,11.69,5.78,18.02,6.24l-7.84,30.02,10.56,10.56,10.56-10.56-7.84-30.02c6.33-.46,12.56-2.54,18.02-6.24,4.14,2.12,8.02,4.9,11.48,8.36,3.17,3.17,5.77,6.69,7.81,10.44h0Zm-61.01-70.48c11.59-11.59,30.38-11.59,41.97,0,11.59,11.59,11.59,30.38,0,41.97-11.59,11.59-30.38,11.59-41.97,0-11.59-11.59-11.59-30.38,0-41.97Z"/>
+        </g>
+        <text class="cls-5" transform="translate(194.9 202.65)"><tspan class="cls-10" x="0" y="0">Jot</tspan><tspan class="cls-6" x="356.69" y="0">CV</tspan></text>
+      </g>
+      <g>
+        <text class="cls-4" transform="translate(425.68 259.08)"><tspan x="0" y="0">World’s 1</tspan></text>
+        <text class="cls-4" transform="translate(559.58 248.83) scale(.58)"><tspan x="0" y="0">st</tspan></text>
+        <text class="cls-4" transform="translate(575.84 259.08)"><tspan x="0" y="0" xml:space="preserve"> AI-powered Resume</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

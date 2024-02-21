@@ -1,0 +1,106 @@
+.text-black {
+  color: #000; /* Define your desired text color */
+}
+
+/* Your animation styles */
+.text-black.text-center.md:text-left.text-xl.ml-5 {
+  text-align: center;
+  font-size: 1.25rem; /* Adjust font size as needed */
+  margin-left: 1.25rem; /* Adjust margin as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 10px;
+  height: 9vh;
+  overflow: hidden;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  flex: 1;
+  text-align: left;
+  font-size: 1.9rem;
+  font-weight: 800;
+  margin-top: 9px;
+  margin-bottom: 8px;
+  
+  animation: move 7s infinite;
+}
+.first {
+  margin-top: 2px;
+  color: rgb(0, 145, 255);
+}
+.second {
+  margin-top: 2px;
+  color: rgb(11, 119, 201);
+}
+.third {
+  margin-top: 2px;
+  color: rgb(16, 149, 251);
+}
+.fourth {
+  margin-top: 2px;
+  color: rgb(3, 99, 172);
+}
+.fifth {
+  margin-top: 2px;
+  color: rgb(1, 47, 83);
+}
+
+.first div,
+.second div,
+.third div,
+.fourth div,
+.fifth div {
+  position: relative;
+  top: 3px;
+  animation: white-out s infinite;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-5.8vmin);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-11vmin);
+  }
+  75% {
+    transform: translateY(-16.5vmin);
+  }
+}
+
+@media screen and (max-width: 764px) {
+    .animation {
+      /* Adjust styles for mobile */
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: start;}
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth {
+      text-align: center;
+      font-size:19px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+  }
